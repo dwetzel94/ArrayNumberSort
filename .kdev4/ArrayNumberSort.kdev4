@@ -1,0 +1,49 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x1e\x00A\x00r\x00r\x00a\x00y\x00N\x00u\x00m\x00b\x00e\x00r\x00S\x00o\x00r\x00t)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index-Host System=0
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=/home/demi/projects/ArrayNumberSort/build
+Build Type=Debug
+CMake Binary=/bin/cmake
+CMake Executable=/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=
+Runtime=Host System
+
+[CustomDefinesAndIncludes][ProjectPath0]
+Path=.
+parseAmbiguousAsCPP=true
+parserArguments=-ferror-limit=100 -fspell-checking -Wdocumentation -Wunused-parameter -Wunreachable-code -Wall -std=c++11
+parserArgumentsC=-ferror-limit=100 -fspell-checking -Wdocumentation -Wunused-parameter -Wunreachable-code -Wall -std=c99
+
+[CustomDefinesAndIncludes][ProjectPath0][Compiler]
+Name=GCC
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=arraynumbersort
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x1e\x00A\x00r\x00r\x00a\x00y\x00N\x00u\x00m\x00b\x00e\x00r\x00S\x00o\x00r\x00t\x00\x00\x00\x1e\x00a\x00r\x00r\x00a\x00y\x00n\x00u\x00m\x00b\x00e\x00r\x00s\x00o\x00r\x00t)
+Dependency Action=Build
+EnvironmentGroup=
+Executable=file:///home/demi/projects/ArrayNumberSort
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=ArrayNumberSort,arraynumbersort
+Use External Terminal=true
+Working Directory=
+isExecutable=false
+
+[Project]
+VersionControlSupport=
